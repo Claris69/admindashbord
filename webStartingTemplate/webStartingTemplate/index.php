@@ -15,19 +15,19 @@
 	
 	
 	<!-- All our code. write here   -->
-	<div class="header">
+	<div class="header ">
 		<!-- this will hold all code for our header info -->
 		<div class="header">
 			<img src="images/1.jpg" alt="Zalego" class="rounded-circle" >
 			<a href="#" class="navbar-trigger"><span></span></a>
 		</div>
 	</div>
-	<div class="sidebar">
+	<div class="sidebar" style="background-color:#7fc242;">
 		<!-- this will hold all code for our slidebar info -->
 		<nav>
 			<ul>
 				<li>
-					<a href="">
+					<a href="students.html">
 						<span> <i class="fa fa-group"></i></span>
 						<span>Students</span>
 					</a>
@@ -54,7 +54,7 @@
 		<!-- this will hold all code for our main content info -->
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-lg-12">
+				<div class="col-lg-12" style="padding-top: 10px;">
 					<div class="card-header bg-dark text-white text-center">
 						<span>Top content</span>
 					</div>
@@ -62,7 +62,7 @@
 					<div class="card-footer"></div>
 				</div>
 			
-				<div class="col-lg-3" >
+				<div class="col-lg-3"  style="padding-top: 1px;" >
 					<div class="card-header bg-dark text-white text-center">
 						<span>Students</span>
 					</div>
@@ -73,7 +73,7 @@
 					<div class="card-footer"></div>
 				</div>
 
-				<div class="col-lg-3">
+				<div class="col-lg-3"  style="padding-top: 1px;" >
 					<div class="card-header bg-dark text-white text-center">
 						<span>courses</span>
 					</div>
@@ -84,7 +84,7 @@
 					<div class="card-footer"></div>
 				</div>
 
-				<div class="col-lg-3">
+				<div class="col-lg-3"  style="padding-top: 1px;" >
 					<div class="card-header bg-dark text-white text-center">
 						<span>campus</span>
 					</div>
@@ -95,7 +95,7 @@
 					<div class="card-footer"></div>
 				</div>
 
-				<div class="col-lg-3">
+				<div class="col-lg-3"  style="padding-top: 1px;" >
 					<div class="card-header bg-dark text-white text-center">
 						<span>Users</span>
 					</div>

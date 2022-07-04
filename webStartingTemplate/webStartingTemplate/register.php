@@ -1,3 +1,10 @@
+<?php
+$msg='';
+require_once('processRegister.php');
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +31,7 @@
        <div id="image" style="padding-inline-start: 50%;">
         <img src="images/1.jpg" alt="Zalego" class="rounded-circle" height="0px">
        </div>
-
+    <span><?php echo $msg ?></span>
        <div id="form" class="shadow" >
         <form >
             <div class=row>
