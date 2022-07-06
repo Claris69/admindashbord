@@ -58,7 +58,7 @@
 											<td><?php echo $fetchEnrollmentRecord['created-at']?></td>
 											
 											<td>
-												<a href="#" class="btn btn-primary btn-sm"><i class="fa fa-edit"> </i></a>
+												<a href="edit-enrollment.php?id=<?php echo $fetchEnrollmentRecord['no']?>" class="btn btn-primary btn-sm" ><i class="fa fa-edit"> </i></a>
 												<a href="#" class="btn btn-info btn-sm"><i class="fa fa-eye"> </i></a>
 												<a href="#" class="btn btn-danger btn-sm"><i class="fa fa-trash"> </i></a>
 											</td>								
@@ -79,7 +79,6 @@
 				
 			</div>
 		</div>
-		<script src="jquery.min.js"></script>
-		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<?php require_once('includes/scripts.php')?>
     </body>
 </html>

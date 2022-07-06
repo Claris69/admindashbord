@@ -4,9 +4,11 @@
 <body>
 	
 	
-	<!-- All our code. write here   -->
+	
 	<?php require_once('includes/navbar.php')?>
-	<div class="sidebar" style="background-color:#7fc242;">
+	<!-- All our code. write here   -->
+	
+	<div class="sidebar" style="background-color:#07B00D;">
 		<!-- this will hold all code for our slidebar info -->
 		<?php require_once('includes/sidebar.php')?>
 	</div>
@@ -79,7 +81,6 @@
 			</div>
 		</div>
 	</div>
-<script src="jquery.min.js"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>
+	<?php require_once('includes/scripts.php')?>
 </body>
 </html>

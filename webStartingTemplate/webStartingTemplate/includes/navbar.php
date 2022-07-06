@@ -1,7 +1,7 @@
-<div class="header ">
+<div class="header " style="background-color:#F57E20;">
 		<!-- this will hold all code for our header info -->
 		<div class="header">
-			<img src="images/1.jpg" alt="Zalego" class="rounded-circle" >
+			<img src="images/th.jpg" alt="Zalego" class="rounded-circle" >
 			<a href="#" class="navbar-trigger"><span></span></a>
 		</div>
 	</div>

@@ -1,29 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>admin-register</title>
-    <meta charset="UTF-8">
-	<meta name="description" content="Creating admin dashboard">
-	<meta name="keywords" content="HTML,CSS,Zalego,Technology,Zalego institute,JavaScript">
-	<meta name="author" content="Your name">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="style.css">
-</head>
+<?php require_once('includes/headers.php')?>
 <body>
     
       <div id="header">
           <p > <h5>Zalego| Admin register</h5></p>
        </div>
 
-    <div class='container-fluid;  ' style="padding-inline-start:30% ; padding-inline-end:30%;" >
-       <div id="image" style="padding-inline-start: 50%;">
-        <img src="images/1.jpg" alt="Zalego" class="rounded-circle" height="0px">
-       </div>
+       <?php require_once('includes/navbar.php')?>
 
        <div id="form" class="shadow" >
         <form >
