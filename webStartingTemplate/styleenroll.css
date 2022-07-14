@@ -1,0 +1,200 @@
+* ccs external styling */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    background-color:#F57E20;
+    z-index: 5;
+}
+
+.sidebar{
+    position: absolute;
+    width: 100%;
+    background-color:#07B00D;
+    height: 100vh;
+    z-index:4;
+    padding-top: 50px;
+}
+
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li{
+    padding: 20px 10px;
+    border-bottom: 1px solid #fff;
+}
+
+.sidebar ul li a{
+    color:#ffffffff;
+    text-decoration: none;
+}
+
+
+.main-content{
+    padding-top: 60px;
+    background-attachment: fixed;
+    margin-left:20%;
+}
+
+.container-fluid{
+    padding-top: 10px;
+}
+
+.col-lg-3{
+    padding-top:10px;
+    
+}
+
+img{
+    height: 9vh;
+    width: 1vh0;
+    
+}
+
+
+
+@media screen and (min-width:576px) {
+    .sidebar{
+        width: 50px;
+    }
+
+    .sidebar ul li span:nth-child(2) {
+        display: none;
+    }
+
+    .sidebar ul li i{
+        font-size: 30px;
+    }
+
+    .sidebar ul li{
+        text-align: center;
+    }
+    .main-content{
+        margin-left: 50px;
+    }
+}
+    
+
+@media (max-width:575.98px){
+    .sidebar{
+        width: 50px;
+    }
+
+    .sidebar ul li span:nth-child(2) {
+        display: none;
+    }
+
+    .sidebar ul li{
+        text-align: left;
+    }
+
+    .sidebar ul li i{
+        font-size: 20px;
+    }
+    .main-content{
+        margin-left: 50px;
+    }
+
+}
+
+@media (min-width:768px){
+    .sidebar{
+        width: 100px;
+    }
+
+    .sidebar ul li span:nth-child(2) {
+        display: none;
+    }
+
+    .sidebar ul li{
+        text-align: center;
+    }
+
+    .sidebar ul li i{
+        font-size: 30px;
+    }
+
+    .main-content{
+        margin-left: 100px;
+    }
+}
+
+@media (min-width:922px){
+    .sidebar{
+        width: 200px;
+    }
+
+    .sidebar ul li span:nth-child(2) {
+        display: inline;
+    }
+
+    .sidebar ul li{
+        text-align: left;
+    }
+
+    .sidebar ul li i{
+        font-size: 20px;
+    }
+
+    .main-content{
+        margin-left: 200px;
+    }
+}
+
+@media (min-width:1200px){
+    .sidebar{
+        width: 200px;
+    }
+
+    .sidebar ul li span:nth-child(2) {
+        display: inline;
+    }
+
+    .sidebar ul li{
+        text-align: left;
+    }
+
+    .sidebar ul li i{
+        font-size: 20px;
+    }
+
+    .main-content{
+        margin-left: 200px;
+    }
+}
+
+
+/* register.html file*/
+
+#header{
+    text-align: center;
+    color : white;
+    background-color:red;
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+
+#image{
+  
+    width:40px;
+    height:15%;
+}
+
+.submit-button{
+    padding-top:2%;
+}
+.text{
+     padding-top:8%;
+    
+}
+#form{
+    padding: 30px;
+}
