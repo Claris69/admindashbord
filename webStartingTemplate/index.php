@@ -41,9 +41,11 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-12" style="padding-top: 10px; padding-bottom:30px;">
-					<div class="card-header bg-dark text-white text-center">
-						<span>Top content</span>
-					</div>
+					<div class="card">
+						<div class="card-header bg-dark text-white text-center">
+							<span>Top content</span>
+						</div>
+					</div>	
 				</div>
 			</div>
 			<div class="row">
@@ -103,14 +105,14 @@
             </div>
 			<div class="row pt-5px">
 				<div class="col-lg-12">
-					<div class="card-header bg-dark text-white text-center">
-						<span>Student analysis</span>
+					<div class="card">
+						<div class="card-header bg-dark text-white text-center">
+							<span>Student analysis</span>
+						</div>
+						<div class="body-shadow">
+							<span><i class="fa fa-line-chart fa-3x"></i></span>
+						</div>
 					</div>
-					<div class="body-shadow">
-						<span><i class="fa fa-line-chart fa-3x"></i></span>
-					</div>
-
-					
 				</div>
             </div>
 			

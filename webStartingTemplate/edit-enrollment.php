@@ -61,7 +61,7 @@
 
 									<div class="col-lg-6">
 										<label for="emailadress" class="form-label"><h6>email adress</h6></label>
-										<input type="text" name="email" value="<?php echo $emailadress?>" class="form-control" placeholder="Please Enter Your email Adress">
+										<input type="text" name="email" value="<?php echo $email?>" class="form-control" placeholder="Please Enter Your email Adress">
 									</div>
 
 									<div class="col-lg-6">

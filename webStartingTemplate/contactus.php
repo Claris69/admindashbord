@@ -24,14 +24,9 @@ $sql= mysqli_query($conn,"SELECT * FROM contactus" );
 				<div class="row">
 					<div class="col-lg-12" style="padding-top: 10px;">
 						<div class="card-header bg-dark text-white text-center">
-							<span>Top content</span>
+							<span>Contact-us table content</span>
 						</div>
-					</div>
-				</div>
-			
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="card">
+				
 							<!-- <div class="card-body"> -->
 								<table class="table table-striped table-hover table-responsive" style="font-size:12px">
 									<thead>
@@ -59,25 +54,21 @@ $sql= mysqli_query($conn,"SELECT * FROM contactus" );
 												<td><?php echo $fetchEnrollmentRecord['created-at']?></td>
 												
 												
-                                                <!-- <td>
-													<a href="#" class="btn btn-primary btn-sm" ><i class="fa fa-edit"> </i></a>
-													<a href="#" class="btn btn-info btn-sm"><i class="fa fa-eye"> </i></a>
+												<td>
+													<a href="edit-contactus.php?id=<?php echo $fetchEnrollmentRecord['no']?>" class="btn btn-primary btn-sm" ><i class="fa fa-edit"> </i></a>
+													 <!-- <a href="view-enrollment.php?id=<?php echo $fetchEnrollmentRecord['no'] ?>" class="btn btn-info btn-sm"><i class="fa fa-eye"> </i></a> -->
 													<a href="delete-contactus.php?id=<?php echo$fetchEnrollmentRecord['no']?>" class="btn btn-danger btn-sm"><i class="fa fa-trash"> </i></a>
-												</td>							 -->
+												</td>		
 											</tr>
 
 										<?php } ?>	
 				
 									</tbody>
 								</table>
-							<!-- </div> -->
-						</div>
+							</div>
+						
 					</div>
 				</div>
-		
-				
-				
-				
 			</div>
 		</div>
 		<?php require_once('includes/scripts.php')?>
